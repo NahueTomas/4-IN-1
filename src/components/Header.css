@@ -1,0 +1,28 @@
+.Header{
+    border: 2px solid #000;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #FFFEE3;
+}
+
+.header-items-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.header-items-contenedor .img-logo{
+    height: 100%;
+}
+
+.titulo-header{
+    font-size: 2.2rem;
+    background: rgb(177,116,255);
+    background: -webkit-linear-gradient(25deg, rgba(177,116,255,1) 0%, rgba(255,116,116,1) 33%, rgba(255,183,116,1) 66%, rgba(116,171,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
