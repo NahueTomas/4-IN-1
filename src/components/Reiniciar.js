@@ -1,7 +1,7 @@
 import './Reiniciar.css'
 
 const Reiniciar = () => {
-    let nivel = localStorage.getItem('nivel')
+    let nivel = parseInt(localStorage.getItem('nivel'))
 
     const reiniciar = () => {
         localStorage.setItem('nivel', 0)
@@ -16,13 +16,11 @@ const Reiniciar = () => {
     return(
         <section className="contenedor-seccion contenedor-botones">
             {
-                nivel === 0
+                nivel !== 0
                     ? <button className="btn-volver" onClick={volverAtras}>Volver al nivel anterior</button>
                     : null
             }
-            <button className="btn-reiniciar" onClick={reiniciar}>
-                Reiniciar juego
-            </button>
+            <button className="btn-reiniciar" onClick={reiniciar}>Reiniciar juego</button>
         </section>
     )
 }
