@@ -28,3 +28,7 @@ body {
   margin: 1.8rem 0px 1.2rem 0rem;
   color: #383838;
 }
+
+.min-height{
+  min-height: calc(100vh - (65px + 163px + 64px));
+}

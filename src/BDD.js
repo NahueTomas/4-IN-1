@@ -31,12 +31,32 @@ const niveles = [
     },
     {
         nivel: 4,
-        palabra: 'error',
+        palabra: 'navidad',
         imagenes: [ 
-                'a',
-                'b',
-                'c',
-                'd'
+                'https://images.unsplash.com/photo-1615097130643-12caeab3c625?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+                'https://images.unsplash.com/photo-1609827481403-f5e60468bf0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+                'https://images.unsplash.com/photo-1601118964938-228a89955311?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80',
+                'https://images.unsplash.com/photo-1608906738271-6fb0b50b41fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80'
+            ]
+    },
+    {
+        nivel: 5,
+        palabra: 'terror',
+        imagenes: [ 
+                'https://i1.wp.com/hipertextual.com/wp-content/uploads/2017/10/viernes-13.jpg?fit=1280%2C720&ssl=1',
+                'https://www.somosxbox.com/wp-content/uploads/2019/05/dead-by-daylight-freddy-krueger-somosxbox-790x503.jpg?width=1200&enable=upscale',
+                'https://as01.epimg.net/us/imagenes/2019/09/05/tikitakas/1567710727_250133_1567710967_noticia_normal_recorte1.jpg',
+                'https://www.neoteo.com/wp-content/uploads/2020/12/logo-22-758x506.jpg'
+            ]
+    },
+    {
+        nivel: 6,
+        palabra: 'redes',
+        imagenes: [ 
+                'https://blogs.iadb.org/ideas-que-cuentan/wp-content/uploads/sites/11/2020/11/analisis-redes-sociales-politicas-publicas-America-Latina-Caribe-min.jpg',
+                'https://www.unir.net/wp-content/uploads/2020/08/redes-sociales-educacion.jpg',
+                'https://2.bp.blogspot.com/-CSplf5Z0myo/WihMpKN_ABI/AAAAAAAACsE/hmPCGOPQbNkLPBOSPOjFvh2Q5JeHZ-X0QCEwYBhgL/s1600/01Red.jpg',
+                'https://m.media-amazon.com/images/I/A1GvQhmCmHL._AC_UX522_.jpg'
             ]
     }
 ]
