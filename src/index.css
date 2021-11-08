@@ -15,10 +15,17 @@ body {
 .contenedor{
   max-width: 800px;
   margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-seccion{
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .titulo{
   font-size: 1.6rem;
-  margin: 1.5rem 0px .5rem 0rem;
+  margin: 1.8rem 0px 1.2rem 0rem;
   color: #383838;
 }

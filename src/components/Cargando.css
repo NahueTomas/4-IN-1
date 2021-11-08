@@ -1,0 +1,35 @@
+.Cargando{
+    min-height: calc(100vh - 348px);
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.spinner{
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-image-source: -webkit-linear-gradient(25deg, rgba(177,116,255,1) 0%, rgba(255,116,116,1) 33%, rgba(255,183,116,1) 66%, rgba(116,171,255,1) 100%);
+    border-radius: 50%;
+    animation-duration: .5s;
+    animation-name: girar;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.titulo-espere{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+@keyframes girar {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -11,17 +11,17 @@ const Footer = () => {
             <div className="contenedor">
                 <p className="titulo-footer">Made by @nahuetomas</p>
                 <div className="redes">
-                    <a href="https://www.instagram.com/nahuetomas/?hl=es-la" target="_blank">
-                        <img src={ig} />
+                    <a href="https://www.instagram.com/nahuetomas/?hl=es-la" target="_blank" rel="noreferrer">
+                        <img src={ig} alt="Mi perfil de Instagram" />
                     </a>
-                    <a href="https://www.linkedin.com/in/nahuel-rodr%C3%ADguez-391629203/" target="_blank">
-                        <img src={li} />
+                    <a href="https://twitter.com/NahueTomas" target="_blank" rel="noreferrer">
+                        <img src={tw} alt="Mi perfil de Twitter" />
                     </a>
-                    <a href="https://twitter.com/NahueTomas" target="_blank">
-                        <img src={tw} />
+                    <a href="https://www.linkedin.com/in/nahuel-rodr%C3%ADguez-391629203/" target="_blank" rel="noreferrer">
+                        <img src={li} alt="Mi perfil de LinkedIn" />
                     </a>
-                    <a href="https://github.com/NahueTomas" target="_blank">
-                        <img src={gh} />
+                    <a href="https://github.com/NahueTomas" target="_blank" rel="noreferrer">
+                        <img src={gh} alt="Mi perfil de Github" />
                     </a>
                 </div>
                 <hr></hr>

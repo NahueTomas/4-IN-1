@@ -1,0 +1,97 @@
+.CajonPalabra{
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+    max-width: 500px;
+    border: 2px solid #000;
+    padding: 1rem;
+    background: -webkit-linear-gradient(25deg, rgba(177,116,255,1) 0%, rgba(255,116,116,1) 33%, rgba(255,183,116,1) 66%, rgba(116,171,255,1) 100%);
+    position: relative;
+    box-shadow: 10px 10px #fff, 10px 10px 0px 2px #000;
+    overflow: hidden;
+    transition: .5s box-shadow;
+}
+
+.correcto{
+    box-shadow: 10px 10px #CEFF9C, 10px 10px 0px 2px #000;
+}
+
+.correcto::after{
+    content: '✓';
+    position: absolute;
+    border: 2px solid #000;
+    border-right: none;
+    padding: .5rem 1rem;
+    background-color: #CEFF9C;
+    border-radius: 20px 0px 0px 20px;
+    font-weight: bolder;
+    color: #000;
+    top:50%;
+    right: 0;
+    transform:translate(0,-50%);
+    font-size: .7rem;
+    animation-name: mover-mensaje;
+    animation-duration: 1.5s;
+    animation-iteration-count:initial;
+}
+
+.incorrecto{
+    box-shadow: 10px 10px #ED5353, 10px 10px 0px 2px #000;
+}
+
+.incorrecto::after{
+    content: '✕';
+    position: absolute;
+    border: 2px solid #000;
+    border-right: none;
+    padding: .5rem 1rem;
+    background-color: #ED5353;
+    border-radius: 20px 0px 0px 20px;
+    font-weight: bolder;
+    color: #000;
+    top:50%;
+    right: 0;
+    transform:translate(0,-50%);
+    font-size: .7rem;
+    animation-name: mover-mensaje;
+    animation-duration: 1.5s;
+    animation-iteration-count:initial;
+}
+
+.palabra-cajon{
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.palabra-cajon::placeholder{
+    color: #fff;
+}
+
+@keyframes mover-mensaje {
+    0%{
+        right: -500px;
+    }
+    50%{
+        top:50%;
+        right: 0;
+        transform:translate(0,-50%);
+    }
+    100%{
+        top:50%;
+        right: 0;
+        transform:translate(0,-50%);
+    }
+}
+
+@keyframes animacion-incorrecto {
+    
+}

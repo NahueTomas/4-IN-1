@@ -1,10 +1,9 @@
-import Header from "../components/Header"
-import Main from "../components/Main"
+import MainHome from "../components/MainHome"
 
 const Home = () => {
     return(
         <>
-            <Main />
+            <MainHome />
         </>
     )
 }

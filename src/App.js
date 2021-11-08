@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './components/Header.js'
-import Main from './components/Main.js'
 import { Route } from 'wouter'
 import Home from './views/Home';
 import Footer from './components/Footer';
+import Play from './views/Play';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Home />
       </Route>
       <Route path="/play">
-        <p>PAGINA DEL JUEGO</p>
+        <Play />
       </Route>
       <Footer />
     </div>
