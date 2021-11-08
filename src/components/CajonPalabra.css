@@ -6,6 +6,7 @@
     padding: 1rem;
     background: -webkit-linear-gradient(25deg, rgba(177,116,255,1) 0%, rgba(255,116,116,1) 33%, rgba(255,183,116,1) 66%, rgba(116,171,255,1) 100%);
     position: relative;
+    z-index: 2;
     box-shadow: 10px 10px #fff, 10px 10px 0px 2px #000;
     overflow: hidden;
     transition: .5s box-shadow;

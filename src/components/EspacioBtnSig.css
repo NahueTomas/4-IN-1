@@ -1,0 +1,28 @@
+.seccion-btn-sig{
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem auto;
+}
+
+.btn-siguiente{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #415032;
+    padding: .5rem 1.5rem;
+    border: 2px solid #000;
+    transition: 1s background, 1s box-shadow, .8s transform;
+    transition-delay: .1s;
+    transform: translateY(-90px);
+    position: relative;
+    z-index: 1;
+}
+
+.btn-siguiente:hover{
+    cursor: pointer;
+}
+
+.btn-activado{
+    background-color: #CEFF9C;
+    box-shadow: 8px 8px #415032, 8px 8px 0px 2px #000;
+    transform: translateY(0px);
+}
