@@ -5,11 +5,23 @@
 }
 
 .contenedor-botones button{
-    font-size: .65rem;
-    border: 2px solid #415032;
+    font-size: .6rem;
     padding: .5rem 1rem;
     font-weight: bolder;
     border-radius: 20px;
-    background-color: #CEFF9C;
-    color: #415032;
+    background-color: #fff;
+}
+
+.contenedor-botones button:hover{
+    cursor: pointer;
+}
+
+.btn-reiniciar{
+    border: 2px solid #ED5353;
+    color: #ED5353;
+}
+
+.btn-volver{
+    border: 2px solid #3838389c;
+    color: #3838389c;
 }

@@ -16,7 +16,7 @@ const Reiniciar = () => {
     return(
         <section className="contenedor-seccion contenedor-botones">
             {
-                nivel !== 1
+                nivel === 0
                     ? <button className="btn-volver" onClick={volverAtras}>Volver al nivel anterior</button>
                     : null
             }
