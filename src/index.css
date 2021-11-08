@@ -12,6 +12,10 @@ body {
   font-size: 16px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .contenedor{
   max-width: 800px;
   margin: auto;
