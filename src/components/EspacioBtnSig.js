@@ -2,7 +2,6 @@ import './EspacioBtnSig.css'
 
 function EspacioBtnSig() {
     const pasarNivel = () => {
-        console.log('HOLA')
         let nivel = parseInt(localStorage.getItem('nivel'))
         nivel = nivel + 1
         localStorage.setItem('nivel', nivel)
