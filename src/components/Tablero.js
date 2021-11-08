@@ -7,7 +7,9 @@ const Tablero = ({imagenes, presentacion = false}) => {
     return(
         <section className="contenedor-tablero contenedor-seccion">
             {
-                presentacion ?<Link to="/play" className="btn-jugar">Jugar!</Link> :console.log('')
+                presentacion
+                    ? <Link to="/play" className="btn-jugar">Jugar!</Link>
+                    : null
             }
             
             <div className="cuadros-tablero">
