@@ -15,7 +15,6 @@ body {
 .contenedor{
   max-width: 800px;
   margin: auto;
-  overflow: hidden;
 }
 
 .contenedor-seccion{
