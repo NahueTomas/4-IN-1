@@ -3,6 +3,7 @@ import Tablero from "./Tablero"
 import CajonPalabra from "./CajonPalabra"
 import Reiniciar from "./Reiniciar"
 import EspacioBtnSig from "./EspacioBtnSig"
+import './botonera.css'
 
 const MainPlay = ({nivel, nivelesTotales}) => {
     return(
@@ -10,8 +11,10 @@ const MainPlay = ({nivel, nivelesTotales}) => {
             <Info nivel={nivel.nivel} nivelesTotales={nivelesTotales} />
             <Tablero imagenes={nivel.imagenes} />
             <CajonPalabra palabra={nivel.palabra} key={nivel.palabra} />
-            <EspacioBtnSig />
-            <Reiniciar />
+            <section className="contenedor-seccion botonera">
+                <Reiniciar />
+                <EspacioBtnSig />
+            </section>
         </main>
     )
 }

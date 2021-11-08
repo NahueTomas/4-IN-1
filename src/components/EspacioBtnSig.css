@@ -5,7 +5,8 @@
 }
 
 .btn-siguiente{
-    font-size: 1.2rem;
+    max-width: 150px;
+    font-size: .9rem;
     font-weight: bolder;
     color: #415032;
     padding: .5rem 1.5rem;

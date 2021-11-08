@@ -14,14 +14,14 @@ const Reiniciar = () => {
     }
 
     return(
-        <section className="contenedor-seccion contenedor-botones">
+        <div className="contenedor-botones">
             {
                 nivel !== 0
                     ? <button className="btn-volver" onClick={volverAtras}>Volver al nivel anterior</button>
                     : null
             }
             <button className="btn-reiniciar" onClick={reiniciar}>Reiniciar juego</button>
-        </section>
+        </div>
     )
 }
 

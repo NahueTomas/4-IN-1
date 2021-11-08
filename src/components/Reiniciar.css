@@ -1,13 +1,12 @@
 .contenedor-botones{
-    margin-top: 2.5rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    max-width: 150px;
 }
 
 .contenedor-botones button{
     font-size: .6rem;
-    padding: .5rem 1rem;
-    font-weight: bolder;
+    padding: .2rem .6rem;
     border-radius: 20px;
     background-color: #fff;
 }
@@ -22,6 +21,7 @@
 }
 
 .btn-volver{
+    margin-bottom: .5rem;
     border: 2px solid #3838389c;
     color: #3838389c;
 }

@@ -10,9 +10,7 @@ function EspacioBtnSig() {
     }
 
     return (
-        <section className="contenedor-seccion seccion-btn-sig">
-            <button className="btn-siguiente" onClick={pasarNivel}>siguiente nivel! →</button>
-        </section>
+        <button className="btn-siguiente" onClick={pasarNivel}>siguiente nivel! →</button>
     )
 }
 
