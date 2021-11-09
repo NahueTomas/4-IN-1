@@ -1,6 +1,6 @@
 # 4-IN-1
 
-4 in 1 is a game where there are 4 images and you have got to think a word that is relationated with theem.
+4 in 1 is a game where there are 4 images and you have got to think a word that is relationated with them.
 
 If you guess correct, you pass to the next level.
 
