@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href="https://twitter.com/NahueTomas" target="_blank" rel="noreferrer">
                         <img src={tw} alt="Mi perfil de Twitter" />
                     </a>
-                    <a href="https://www.linkedin.com/in/nahuel-rodr%C3%ADguez-391629203/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/nahuetomas/" target="_blank" rel="noreferrer">
                         <img src={li} alt="Mi perfil de LinkedIn" />
                     </a>
                     <a href="https://github.com/NahueTomas" target="_blank" rel="noreferrer">
